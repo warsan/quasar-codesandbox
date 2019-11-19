@@ -1,9 +1,9 @@
-// Configuration for your app
+// Конфигурация для вашего приложения
 
 module.exports = function (ctx) {
   return {
     // app boot file (/src/boot)
-    // --> boot files are part of "main.js"
+    // --> загрузочные файлы являются частью "main.js"
     boot: [
     ],
 
@@ -19,17 +19,17 @@ module.exports = function (ctx) {
       // 'themify',
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
-      'roboto-font', // optional, you are not bound to it
-      'material-icons' // optional, you are not bound to it
+      'roboto-font', // необязательно, вы не привязаны к нему
+      'material-icons' // необязательно, вы не привязаны к нему
     ],
 
     framework: {
-      // this is here for convenience,
-      // but NOT recommended in production!
+      // это здесь для удобства,
+      // но не рекомендуется в производстве!
       all: true,
 
       // iconSet: 'ionicons-v4'
-      // lang: 'de' // Quasar language
+      // lang: 'ru' // Язык квазаров
     },
 
     supportIE: false,
@@ -40,11 +40,11 @@ module.exports = function (ctx) {
     },
 
     devServer: {
-      open: false, // leave this here for Codesandbox to work
-      public: 'http://0.0.0.0' // leave this here for Codesandbox to work
+      open: false, // оставлю это здесь для работы с Codesandbox
+      public: 'http://0.0.0.0' // оставлю это здесь для работы с Codesandbox
     },
 
-    // animations: 'all' --- includes all animations
+    // анимация: "все" --- включает в себя все анимации
     animations: [],
 
     ssr: {
