@@ -6,8 +6,8 @@ import routes from './routes'
 Vue.use(VueRouter)
 
 /*
- * If not building with SSR mode, you can
- * directly export the Router instantiation
+ * Если вы не работаете в режиме SSR, 
+ * вы можете напрямую экспортировать экземпляр маршрутизатора
  */
 
 export default function (/* { store, ssrContext } */) {
@@ -15,7 +15,7 @@ export default function (/* { store, ssrContext } */) {
     scrollBehavior: () => ({ x: 0, y: 0 }),
     routes,
 
-    // Leave these as is and change from quasar.conf.js instead!
+    // Оставьте их как есть и измените quasar.conf.js вместо этого!
     // quasar.conf.js -> build -> vueRouterMode
     // quasar.conf.js -> build -> publicPath
     mode: process.env.VUE_ROUTER_MODE,
