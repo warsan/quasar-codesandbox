@@ -2,7 +2,7 @@
 
 module.exports = {
   plugins: [
-    // to edit target browsers: use "browserslist" field in package.json
+    // Для редактирования целевых браузеров: используйте поле "browserslist" в package.json
     require('autoprefixer')
   ]
 }
