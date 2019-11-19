@@ -1,15 +1,12 @@
-// Configuration for your app
+// Конфигурация для вашего приложения
 
-module.exports = function (ctx) {
+module.exports = function(ctx) {
   return {
-    // app boot file (/src/boot)
-    // --> boot files are part of "main.js"
-    boot: [
-    ],
+    // загрузочный файл приложения (/src/boot)
+    // --> загрузочные файлы являются частью "main.js"
+    boot: [],
 
-    css: [
-      'app.styl'
-    ],
+    css: ['app.styl'],
 
     extras: [
       // 'ionicons-v4',
@@ -19,17 +16,17 @@ module.exports = function (ctx) {
       // 'themify',
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
-      'roboto-font', // optional, you are not bound to it
-      'material-icons' // optional, you are not bound to it
+      'roboto-font', // необязательно, вы не привязаны к нему
+      'material-icons' // необязательно, вы не привязаны к нему
     ],
 
     framework: {
-      // this is here for convenience,
-      // but NOT recommended in production!
-      all: true,
+      // это здесь для удобства,
+      // но не рекомендуется в производстве!
+      all: true
 
       // iconSet: 'ionicons-v4'
-      // lang: 'de' // Quasar language
+      // lang: 'de' // Язык квазаров
     },
 
     supportIE: false,
@@ -40,11 +37,11 @@ module.exports = function (ctx) {
     },
 
     devServer: {
-      open: false, // leave this here for Codesandbox to work
-      public: 'http://0.0.0.0' // leave this here for Codesandbox to work
+      open: false, // оставлю это здесь для Codesandbox на работу
+      public: 'http://0.0.0.0' // оставлю это здесь для Codesandbox на работу
     },
 
-    // animations: 'all' --- includes all animations
+    // анимация: "все" - - - включает в себя все анимации
     animations: [],
 
     ssr: {
@@ -64,29 +61,29 @@ module.exports = function (ctx) {
         theme_color: '#027be3',
         icons: [
           {
-            'src': 'statics/icons/icon-128x128.png',
-            'sizes': '128x128',
-            'type': 'image/png'
+            src: 'statics/icons/icon-128x128.png',
+            sizes: '128x128',
+            type: 'image/png'
           },
           {
-            'src': 'statics/icons/icon-192x192.png',
-            'sizes': '192x192',
-            'type': 'image/png'
+            src: 'statics/icons/icon-192x192.png',
+            sizes: '192x192',
+            type: 'image/png'
           },
           {
-            'src': 'statics/icons/icon-256x256.png',
-            'sizes': '256x256',
-            'type': 'image/png'
+            src: 'statics/icons/icon-256x256.png',
+            sizes: '256x256',
+            type: 'image/png'
           },
           {
-            'src': 'statics/icons/icon-384x384.png',
-            'sizes': '384x384',
-            'type': 'image/png'
+            src: 'statics/icons/icon-384x384.png',
+            sizes: '384x384',
+            type: 'image/png'
           },
           {
-            'src': 'statics/icons/icon-512x512.png',
-            'sizes': '512x512',
-            'type': 'image/png'
+            src: 'statics/icons/icon-512x512.png',
+            sizes: '512x512',
+            type: 'image/png'
           }
         ]
       }

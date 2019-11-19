@@ -4,29 +4,29 @@ about: Create a report to help us improve Quasar
 title: ''
 labels: bug
 assignees: ''
-
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+Четкое и краткое описание того, что это за ошибка.
 
 **Codesandbox (required)**
 Fork a Codesandbox (https://codesandbox.quasar.dev) and copy-paste link here.
 
 **To Reproduce**
-Steps to reproduce the behavior:
+Шаги для воспроизведения поведения:
+
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Ожидаемое поведение**
+Четкое и краткое описание того, что вы ожидали, что произойдет.
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+Если это применимо, добавьте скриншоты, чтобы помочь объяснить вашу проблему.
 
-**Platform (please complete the following information):**
+**Платформа (пожалуйста, заполните следующую информацию):**
 OS:
 Node:
 NPM:
@@ -36,5 +36,5 @@ iOS:
 Android:
 Electron:
 
-**Additional context**
-Add any other context about the problem here.
+**Дополнительный контекст**
+Добавьте любой другой контекст о проблеме здесь.

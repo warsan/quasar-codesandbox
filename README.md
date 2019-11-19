@@ -5,29 +5,29 @@
 
 ![Codesanbox Entry Server Screen](https://cdn.quasar.dev/codesandbox/codesandbox-entry.jpg)
 
-This is the template used for the server template found on [Codesandbox.io](https://codesandbox.io). The template builds a full application running in the development server mode. With the app running in Codesandbox, you can work with a FULL Quasar application and not just the UMD version, as is the case with Codepen and JSFiddle.
+Это шаблон, используемый для шаблона сервера, находящегося на странице [Codesandbox.io](https://codesandbox.io). Шаблон создает полное приложение, работающее в режиме сервера разработки. С приложением, запущенным в Codesandbox, можно работать с приложением FULL Quasar, а не только с версией UMD, как это происходит с Codepen и JSFiddle.
 
-## Purpose
+## Цель
 
-The purpose of this template on Codesandbox is so developers can create more intricate examples of their code. These examples can then be used for both the training and/ or teaching of other devs on using Quasar and also for troubleshooting problems with the core dev team of Quasar.
+Цель этого шаблона на Codesandbox заключается в том, чтобы разработчики могли создавать более сложные примеры своего кода. Эти примеры затем могут быть использованы как для обучения и/или обучения других разработчиков по использованию Quasar, так и для устранения неполадок с основной командой разработчиков Quasar.
 
-## Usage
+## Использование
 
-Using this template will require you to register as a Codesandbox user. Registration only currently works over Github, so that is where you'll need an account.
+Использование этого шаблона потребует от вас регистрации в качестве пользователя Codesandbox. Регистрация в настоящее время работает только на Github, поэтому вам понадобится учетная запись.
 
-Once you've registered to Codesandbox, to start the template, simply click on "Create Sandbox" at the top of the [Codesandbox.io index page](https://codesandbox.io).
+После того, как вы зарегистрировались в Codesandbox, чтобы запустить шаблон, просто нажмите на кнопку "создать песочницу" в верхней части экрана. [Codesandbox.io index page](https://codesandbox.io).
 
-Then click on `SERVER TEMPLATES` and then on the `Quasar` button.
+Затем нажмите на кнопку "шаблоны сервера", а затем на кнопку "Квазар".
 
 ![Codesanbox Start Server Screen](https://cdn.quasar.dev/codesandbox/codesandbox-start.jpg)
 
-The server and container will start automatically. Once you make any change and save it, Codesandbox will automatically fork the sandbox for you.
+Сервер и контейнер запустятся автоматически. Как только вы внесете какие-либо изменения и сохраните их, Codesandbox автоматически раскроет песочницу для вас.
 
 ## Different Modes
 
-This template currently loads a *SPA* application mode of Quasar.
+Этот шаблон в настоящее время загружает режим приложения * SPA * Quasar.
 
-If you would like to work with the PWA or SSR versions of Quasar, please make the following changes to the `start` script entries in the `package.json`.
+Если вы хотите работать с PWA или SSR версиями Quasar, внесите следующие изменения в записи сценария 'start' в 'package.json'.
 
 #### PWA
 
@@ -47,11 +47,11 @@ If you would like to work with the PWA or SSR versions of Quasar, please make th
 
 ```
 
-Once you've changed the the `start` entry of `scripts` in the `package.json` file accordingly, you simply need to restart the container's server.
+После изменения записи "start" сценариев в файле "package.json" необходимо просто перезапустить сервер контейнера.
 
 ![Codesanbox Restart Server Screen](https://cdn.quasar.dev/codesandbox/codesandbox-restart-server.jpg)
 
-Once that is done, it should take a minute or so to reload the application in the new mode.
+После этого потребуется около минуты, чтобы перезагрузить приложение в новом режиме.
 
 ## Quasar Repositories
 
@@ -59,7 +59,7 @@ Once that is done, it should take a minute or so to reload the application in th
 
 ## Contributing
 
-We're excited if you want to contribute to Quasar under any form (report bugs, write a plugin, fix an issue, write a new feature, help with the documentation). Any help is much appreciated!
+Мы будем рады, если вы захотите внести свой вклад в Quasar в любой форме (сообщить об ошибках, написать плагин, исправить проблему, написать новую функцию, помочь с документацией). Любая помощь очень ценится!
 
 ## License
 

@@ -7,14 +7,14 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Ваш запрос функции связан с проблемой? Пожалуйста, опишите.**
+Четкое и краткое описание того, в чем проблема. Ex. Я всегда разочарован, когда [...]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Опишите желаемое решение**
+Четкое и краткое описание того, что должно произойти.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Опишите рассмотренные альтернативы**
+Четкое и краткое описание всех рассмотренных альтернативных решений или функций.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Дополнительный контекст**
+Добавьте любой другой контекст или снимки экрана о запросе функции здесь.
