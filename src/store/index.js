@@ -1,23 +1,23 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-// import example from './module-example'
+// пример импорта из './module-example'
 
 Vue.use(Vuex)
 
 /*
- * If not building with SSR mode, you can
- * directly export the Store instantiation
+ * При отсутствии построения в режиме SSR 
+ * можно непосредственно экспортировать экземпляр Store
  */
 
 export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
     modules: {
-      // example
+      // пример
     },
 
-    // enable strict mode (adds overhead!)
-    // for dev mode only
+    // включить строгий режим (добавляет накладные расходы!)
+    // только для режима разработки 
     strict: process.env.DEV
   })
 
