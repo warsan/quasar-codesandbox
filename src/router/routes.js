@@ -9,7 +9,7 @@ const routes = [
   }
 ]
 
-// Always leave this as last one
+// Всегда оставляйте это как последнее
 if (process.env.MODE !== 'ssr') {
   routes.push({
     path: '*',
