@@ -1,33 +1,33 @@
 ![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
 
-# Quasar App Codesandbox Template
-> A Template for using Quasar on Codesandbox.io.
+# Шаблон кода приложения Quasar
+> Шаблон для использования Quasar на Codesandbox.io.
 
-![Codesanbox Entry Server Screen](https://cdn.quasar.dev/codesandbox/codesandbox-entry.jpg)
+![Экран сервера ввода Codesanbox](https://cdn.quasar.dev/codesandbox/codesandbox-entry.jpg)
 
-This is the template used for the server template found on [Codesandbox.io](https://codesandbox.io). The template builds a full application running in the development server mode. With the app running in Codesandbox, you can work with a FULL Quasar application and not just the UMD version, as is the case with Codepen and JSFiddle.
+Это шаблон, используемый для шаблона сервера, найденного на [Codesandbox.io](https://codesandbox.io). Шаблон создает полное приложение, работающее в режиме сервера разработки. С приложением, работающим в Codesandbox, вы можете работать с *полным* приложением Quasar, а не только с версией UMD, как в случае с Codepen и JSFiddle.
 
-## Purpose
+## Цель
 
-The purpose of this template on Codesandbox is so developers can create more intricate examples of their code. These examples can then be used for both the training and/ or teaching of other devs on using Quasar and also for troubleshooting problems with the core dev team of Quasar.
+Цель этого шаблона на Codesandbox заключается в том, чтобы разработчики могли создавать более сложные примеры своего кода. Эти примеры затем могут быть использованы как для обучения и/или обучения других разработчиков по использованию Quasar, так и для устранения неполадок с основной командой разработчиков Quasar.
 
-## Usage
+## Использование
 
-Using this template will require you to register as a Codesandbox user. Registration only currently works over Github, so that is where you'll need an account.
+Использование этого шаблона потребует от вас регистрации в качестве пользователя Codesandbox. Регистрация в настоящее время работает только на Github, поэтому вам понадобится учетная запись.
 
-Once you've registered to Codesandbox, to start the template, simply click on "Create Sandbox" at the top of the [Codesandbox.io index page](https://codesandbox.io).
+После того, как вы зарегистрировались в Codesandbox, чтобы запустить шаблон, просто нажмите на кнопку "создать песочницу" в верхней части экрана. [Codesandbox.io index page](https://codesandbox.io).
 
-Then click on `SERVER TEMPLATES` and then on the `Quasar` button.
+Затем нажмите на кнопку `SERVER TEMPLATES`, а затем на кнопку `Quasar`.
 
 ![Codesanbox Start Server Screen](https://cdn.quasar.dev/codesandbox/codesandbox-start.jpg)
 
-The server and container will start automatically. Once you make any change and save it, Codesandbox will automatically fork the sandbox for you.
+Сервер и контейнер запустятся автоматически. Как только вы внесете какие-либо изменения и сохраните их, Codesandbox автоматически раскроет песочницу для вас.
 
-## Different Modes
+## Разные режимы
 
-This template currently loads a *SPA* application mode of Quasar.
+Этот шаблон в настоящее время загружает режим приложения *SPA* квазара.
 
-If you would like to work with the PWA or SSR versions of Quasar, please make the following changes to the `start` script entries in the `package.json`.
+Если вы хотите работать с версиями PWA или SSR Quasar, пожалуйста, внесите следующие изменения в записи сценария `start` в пакете `package.json`
 
 #### PWA
 
@@ -47,19 +47,19 @@ If you would like to work with the PWA or SSR versions of Quasar, please make th
 
 ```
 
-Once you've changed the the `start` entry of `scripts` in the `package.json` file accordingly, you simply need to restart the container's server.
+После того, как вы изменили запись `start` внутри `scripts` в `package.json` соответственно, вам просто нужно перезапустить сервер контейнера.
 
 ![Codesanbox Restart Server Screen](https://cdn.quasar.dev/codesandbox/codesandbox-restart-server.jpg)
 
-Once that is done, it should take a minute or so to reload the application in the new mode.
+Как только это будет сделано, потребуется около минуты, чтобы перезагрузить приложение в новом режиме.
 
-## Quasar Repositories
+## Хранилища Квазаров
 
 * [Quasar Framework](https://github.com/quasarframework/quasar)
 
-## Contributing
+## Содействие
 
-We're excited if you want to contribute to Quasar under any form (report bugs, write a plugin, fix an issue, write a new feature, help with the documentation). Any help is much appreciated!
+Мы будем рады, если вы захотите внести свой вклад в Quasar в любой форме (сообщить об ошибках, написать плагин, исправить проблему, написать новую функцию, помочь с документацией). Любая помощь очень ценится!
 
 ## License
 
