@@ -1,8 +1,8 @@
-# These are supported funding model platforms
+# Это поддерживаемые платформы модели финансирования
 
 github: rstoenescu
 patreon: # quasarframework
-open_collective: # Replace with a single Open Collective username
-ko_fi: # Replace with a single Ko-fi username
-tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
-custom: # Replace with a single custom sponsorship URL
+open_collective: # Заменить одним открытым именем коллектива
+ko_fi: # Заменить одним именем пользователя Ko-fi
+tidelift: # Замените на одно имя Tidelift платформы/имя пакета, например, npm/babel
+custom: # Заменить одним настраиваемым URL-адресом спонсорской поддержки
