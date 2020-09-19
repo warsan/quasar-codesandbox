@@ -1,32 +1,32 @@
 ---
-name: Bug report
-about: Create a report to help us improve Quasar
-title: ''
-labels: bug
-assignees: ''
+шапка: Отчет об ошибках
+about: Создайте отчет, который поможет нам улучшить Quasar
+заглавие: ''
+метки: Ошибка
+исполнители: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Опишите ошибку**  
+Четкое и краткое описание ошибки.
 
-**Codesandbox (required)**
-Fork a Codesandbox (https://codesandbox.quasar.dev) and copy-paste link here.
+**Codesandbox (required)**  
+Разветвить Codesandbox (https://codesandbox.quasar.dev) и копировать-вставить сюда ссылку на ветку.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
+**Воспроизвести**  
+Шаги по воспроизведению поведения:
+1. Перейти к '...'
+2. Нажмите на '....'
 3. Scroll down to '....'
-4. See error
+4. Посмотреть ошибку
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Ожидаемое поведение**  
+Четкое и краткое описание того, какой результат вы ожидали.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Скриншоты**  
+По возможности добавьте снимки экрана к объяснению вашей проблемы.
 
-**Platform (please complete the following information):**
+**Платформа (пожалуйста, заполните следующую информацию):**  
 OS:
 Node:
 NPM:
@@ -36,5 +36,5 @@ iOS:
 Android:
 Electron:
 
-**Additional context**
-Add any other context about the problem here.
+**Дополнительный контекст**  
+Добавьте сюда любой другой контекст проблемы.
