@@ -1,48 +1,48 @@
-# Quasar Contributing Guide
+# Руководство по участию в Quasar
 
-Hi! I’m really excited that you are interested in contributing to Quasar. Before submitting your contribution though, please make sure to take a moment and read through the following guidelines.
+Здравствуйте! Я очень рад, что вы хотите внести свой вклад в Quasar. Однако перед тем, как отправить свой вклад, не забудьте уделить время и прочитать следующие инструкции.
 
-- [Code of Conduct](https://github.com/quasarframework/quasar/blob/dev/.github/CODE_OF_CONDUCT.md)
-- [Issue Reporting Guidelines](#issue-reporting-guidelines)
-- [Pull Request Guidelines](#pull-request-guidelines)
-- [Development Setup](#development-setup)
-- [Project Structure](#project-structure)
+- [Правила поведения](https://github.com/quasarframework/quasar/blob/dev/.github/CODE_OF_CONDUCT.md)
+- [Рекомендации по сообщению о проблемах](#issue-reporting-guidelines)
+- [Рекомендации по запросу на вытягивание](#pull-request-guidelines)
+- [Настройка разработки](#development-setup)
+- [Структура проекта](#project-structure)
 
-## Issue Reporting Guidelines
+## Рекомендации по сообщению о проблемах
 
-- The issue list of this repo is **exclusively** for bug reports and feature requests. Non-conforming issues will be closed immediately.
+- Список проблем этого репо **предназначен исключительно** для отчетов об ошибках и запросов функций. Несоответствующие вопросы будут немедленно закрыты.
 
-  - For simple beginner questions, you can get quick answers from the [Quasar Discord chat](https://chat.quasar.dev).
+  - На простые вопросы новичка вы можете быстро получить ответы на [Quasar Discord чате](https://chat.quasar.dev).
 
-  - For more complicated questions, you can use [the official forum](https://forum.quasar.dev/). Make sure to provide enough information when asking your questions - this makes it easier for others to help you!
+  - Для более сложных вопросов вы можете использовать [официальный форум](https://forum.quasar.dev/). Задавая вопросы, убедитесь, что вы предоставили достаточно информации - так вам будет проще помочь другим!
 
-- Try to search for your issue, it may have already been answered or even fixed in the development branch (`dev`).
+- Попробуйте найти свою проблему, возможно, на нее уже ответили или даже исправили в ветке разработки (`dev`).
 
-- Check if the issue is reproducible with the latest stable version of Quasar. If you are using a pre-release, please indicate the specific version you are using.
+- Убедитесь, что проблема воспроизводится в последней стабильной версии Quasar. Если вы используете предварительную версию, укажите конкретную версию, которую вы используете.
 
-- It is **required** that you clearly describe the steps necessary to reproduce the issue you are running into. Although we would love to help our users as much as possible, diagnosing issues without clear reproduction steps is extremely time-consuming and simply not sustainable.
+- **Требуется**, чтобы вы четко описали шаги, необходимые для воспроизведения проблемы, с которой вы столкнулись. Хотя мы хотели бы максимально помочь нашим пользователям, диагностика проблем без четких шагов по воспроизведению занимает очень много времени и просто неэффективно.
 
-- Use only the minimum amount of code necessary to reproduce the unexpected behavior. A good bug report should isolate specific methods that exhibit unexpected behavior and precisely define how expectations were violated. What did you expect the method or methods to do, and how did the observed behavior differ? The more precisely you isolate the issue, the faster we can investigate.
+- Используйте только минимальный объем кода, необходимый для воспроизведения неожиданного поведения. Хороший отчет об ошибке должен изолировать определенные методы, которые демонстрируют неожиданное поведение, и точно определять, как были нарушены ожидания. Что вы ожидали от метода или методов и чем отличалось наблюдаемое поведение? Чем точнее вы определите проблему, тем быстрее мы ее рассмотрим.
 
-- Issues with no clear repro steps will not be triaged. If an issue labeled "need repro" receives no further input from the issue author for more than 5 days, it will be closed.
+- Проблемы без четких шагов воспроизведения не будут сортироваться. Если проблема с пометкой «требуется повторное воспроизведение» не получает дополнительных комментариев от автора в течение более 5 дней, она будет закрыта.
 
-- If your issue is resolved but still open, don’t hesitate to close it. In case you found a solution by yourself, it could be helpful to explain how you fixed it.
+- Если проблема решена, но все еще не решена, не бойтесь закрыть ее. Если вы сами нашли решение, было бы полезно объяснить, как вы его исправили.
 
-- Most importantly, we beg your patience: the team must balance your request against many other responsibilities — fixing other bugs, answering other questions, new features, new documentation, etc. The issue list is not paid support and we cannot make guarantees about how fast your issue can be resolved.
+- Самое главное, мы просим вашего терпения: команда должна сбалансировать ваш запрос со многими другими обязанностями - исправлением других ошибок, ответами на другие вопросы, новыми функциями, новой документацией и т. Д. Список проблем не является платной поддержкой, и мы не можем гарантировать, насколько быстро ваша проблема может быть решена.
 
-## Pull Request Guidelines
+## Рекомендации по запросу на вытягивание
 
-- The `master` branch is basically just a snapshot of the latest stable release. All development should be done in dedicated branches. **Do not submit PRs against the `master` branch.**
+- Ветка `master` в основном представляет собой снимок последней стабильной версии. Вся разработка должна выполняться в выделенных ветках. **Не отправляйте PR для ветки `master`**. 
 
-- Checkout a topic branch from the relevant branch, e.g. `dev`, and merge back against that branch.
+- Оформить заказ на тематическую ветку из соответствующей ветки, например `dev` и выполнить слияние с этой веткой.
 
-- **DO NOT** checkin `dist` in the commits.
+- **НЕ** проверяйте `dist` в коммитах.
 
-- It's OK to have multiple small commits as you work on the PR - we will let GitHub automatically squash it before merging.
+- Допускается несколько небольших коммитов во время работы над PR - мы позволим GitHub автоматически сжимать их перед объединением.
 
-- If adding new feature:
-  - Provide convincing reason to add this feature. Ideally you should open a suggestion issue first and have it greenlighted before working on it.
+- При добавлении новой функции:
+  - Укажите убедительную причину для добавления этой функции. В идеале вы должны сначала открыть вопрос с предложением и дать ему зеленый свет, прежде чем работать над ним.
 
-- If fixing a bug:
-  - If you are resolving a special issue, add `(fix: #xxxx[,#xxx])` (#xxxx is the issue id) in your PR title for a better release log, e.g. `fix: update entities encoding/decoding (fix #3899)`.
-  - Provide detailed description of the bug in the PR. Live demo preferred.
+- При исправлении ошибки:
+  - Если вы решаете особую проблему, добавьте `(fix: #xxxx[,#xxx])` (#xxxx - это идентификатор проблемы) в вашем PR-заголовке для лучшего журнала выпуска, например `fix: обновить объекты encoding/decoding (fix #3899)`.
+  - Предоставьте подробное описание ошибки в PR. Живая демонстрация предпочтительнее.
