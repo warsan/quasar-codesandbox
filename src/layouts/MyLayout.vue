@@ -3,16 +3,14 @@
     <q-header elevated class="glossy">
       <q-toolbar>
         <q-btn flat dense round
-          @click="leftDrawOpen != leftDrawOpen"
+          @click="leftDrawOpen = !leftDrawOpen"
           aria-label="Menu">
           <q-icon name="menu" />
         </q-btn>
 
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
+        <q-toolbar-title>Квазар App</q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>Квазар v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
