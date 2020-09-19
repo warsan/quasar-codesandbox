@@ -2,13 +2,9 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated class="glossy">
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          @click="leftDrawerOpen = !leftDrawerOpen"
-          aria-label="Menu"
-        >
+        <q-btn flat dense round
+          @click="leftDrawOpen != leftDrawOpen"
+          aria-label="Menu">
           <q-icon name="menu" />
         </q-btn>
 
@@ -21,7 +17,7 @@
     </q-header>
 
     <q-drawer
-      v-model="leftDrawerOpen"
+      v-model="leftDrawOpen"
       bordered
       content-class="bg-grey-2"
     >
@@ -88,7 +84,7 @@ export default {
   name: 'MyLayout',
   data () {
     return {
-      leftDrawerOpen: this.$q.platform.is.desktop
+      leftDrawOpen: this.$q.platform.is.desktop
     }
   },
   methods: {
