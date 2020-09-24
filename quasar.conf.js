@@ -1,6 +1,6 @@
 // Конфигурация для вашего приложения
 
-module.exports = function(ctx) {
+module.exports = function (ctx) {
   return {
     // загрузочный файл приложения (/src/boot)
     // --> загрузочные файлы являются частью "main.js"
@@ -14,7 +14,8 @@ module.exports = function(ctx) {
       // 'fontawesome-v5',
       // 'eva-icons',
       // 'themify',
-      // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
+      // 'roboto-font-latin-ext',
+      // this or either 'roboto-font', NEVER both!
 
       'roboto-font', // необязательно, вы не привязаны к нему
       'material-icons' // необязательно, вы не привязаны к нему
@@ -54,7 +55,7 @@ module.exports = function(ctx) {
       manifest: {
         // name: 'Quasar App',
         // short_name: 'Quasar-PWA',
-        // description: 'Best PWA App in town!',
+        // description: 'Лучший PWA App в городе!',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',

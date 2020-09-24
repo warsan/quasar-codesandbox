@@ -1,26 +1,28 @@
 <!--
-Please make sure to read the Pull Request Guidelines:
+Пожалуйста, не забудьте прочитать руководство по запросу Pull:
 https://github.com/quasarframework/quasar/blob/dev/.github/CONTRIBUTING.md#pull-request-guidelines
 -->
 
-<!-- PULL REQUEST TEMPLATE -->
-<!-- (Update "[ ]" to "[x]" to check a box) -->
+<!-- ШАБЛОН ЗАПРОСА НА ВЫТЯГИВАНИЕ -->
+<!-- (Update "[ ]" to "[x]" чтобы установить флажок) -->
 
-**What kind of change does this PR introduce?** (check at least one)
+**Какие изменения вносит этот PR?** (check at least one)
 
-- [ ] Bugfix
-- [ ] Feature
-- [ ] Code style update
-- [ ] Refactor
-- [ ] Build-related changes
-- [ ] Other, please describe:
+- [ ] Поправки
+- [ ] Особенность
+- [ ] Обновление стиля кода
+- [ ] Рефакторинг
+- [ ] Изменения, связанные со сборкой
+- [ ] Другое, пожалуйста, опишите:
 
-**The PR fulfills these requirements:**
+**PR отвечает этим требованиям:**
 
-- [ ] It's submitted to the `dev` branch and _not_ the `master` branch
-- [ ] When resolving a specific issue, it's referenced in the PR's title (e.g. `fix: #xxx[,#xxx]`, where "xxx" is the issue number)
+- [ ] Он представлен в `dev` ветви и _not_ в`master` ветке
+- [ ] при решении конкретных вопросов оно цитируется в заголовке PR (например, `fix: #xxx[,#xxx]`, где "xxx" является номером проблемы)
 
-If adding a **new feature**, the PR's description includes:
-- [ ] A convincing reason for adding this feature (to avoid wasting your time, it's best to open a suggestion issue first and wait for approval before working on it)
+Если вы добавляете **новую функцию**, описание PR включает в себя:
 
-**Other information:**
+- [ ] Убедительная причина для добавления этой функции
+      (чтобы не тратить свое время впустую, лучше сначала открыть вопрос предложения и дождаться одобрения, прежде чем работать над ним)
+
+**Другая информация:**

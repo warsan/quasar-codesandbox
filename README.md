@@ -1,7 +1,8 @@
 ![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
 
 # Quasar App Codesandbox Template
-> A Template for using Quasar on Codesandbox.io.
+
+> Шаблон для использования квазара на Codesandbox.io.
 
 ![Codesanbox Entry Server Screen](https://cdn.quasar.dev/codesandbox/codesandbox-entry.jpg)
 
@@ -25,7 +26,7 @@
 
 ## Different Modes
 
-Этот шаблон в настоящее время загружает режим приложения * SPA * Quasar.
+Этот шаблон в настоящее время загружает режим приложения _ SPA _ Quasar.
 
 Если вы хотите работать с PWA или SSR версиями Quasar, внесите следующие изменения в записи сценария 'start' в 'package.json'.
 
@@ -55,7 +56,7 @@
 
 ## Quasar Repositories
 
-* [Quasar Framework](https://github.com/quasarframework/quasar)
+- [Quasar Framework](https://github.com/quasarframework/quasar)
 
 ## Contributing
 

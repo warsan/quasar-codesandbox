@@ -10,7 +10,7 @@ assignees: ''
 Четкое и краткое описание того, что это за ошибка.
 
 **Codesandbox (required)**
-Fork a Codesandbox (https://codesandbox.quasar.dev) and copy-paste link here.
+Fork в Codesandbox (https://codesandbox.quasar.dev) и копировать-вставить ссылку здесь.
 
 **To Reproduce**
 Шаги для воспроизведения поведения:
