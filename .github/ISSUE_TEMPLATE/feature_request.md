@@ -1,20 +1,20 @@
 ---
-name: Запрос функции
-about: Предложите идею для Quasar
-заглавие: ''
-метка: запрос функции
-исполнители: ''
+name: Feature request
+about: Suggest an idea for Quasar
+title: ''
+labels: feature request
+assignees: ''
 
 ---
 
-**Связан ли ваш запрос функции с проблемой? Пожалуйста, опишите.**  
-Чёткое и краткое описание того, в чем заключается проблема. Экс. "Я всегда расстраиваюсь, когда [...]"
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Опишите решение, которое вы хотели бы получить**  
-Чёткое и краткое описание того, на что вы надеетесь.
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
 
-**Опишите альтернативы, которые вы рассмотрели**  
-Чёткое и краткое описание любых альтернативных решений или функций, которые вы рассмотрели.
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
 
-**Дополнительный контекст**  
-Добавьте сюда любой другой контекст или скриншоты запроса функции.
+**Additional context**
+Add any other context or screenshots about the feature request here.

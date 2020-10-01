@@ -1,40 +1,40 @@
 ---
-name: Отчет об ошибках
-about: Создайте отчет, который поможет нам улучшить Quasar
-заглавие: ''
-метки: Ошибка
-исполнители: ''
+name: Bug report
+about: Create a report to help us improve Quasar
+title: ''
+labels: bug
+assignees: ''
 
 ---
 
-**Опишите ошибку**  
-Четкое и краткое описание ошибки.
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-**Codesandbox (required)**  
-Разветвить Codesandbox (https://codesandbox.quasar.dev) и копировать-вставить сюда ссылку на ветку.
+**Codesandbox (required)**
+Fork a Codesandbox (https://codesandbox.quasar.dev) and copy-paste link here.
 
-**Воспроизвести**  
-Шаги по воспроизведению поведения:
-1. Перейти к '....'
-2. Нажать на '....'
-3. Прокрутить вниз до '....'
-4. Посмотреть ошибку
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-**Ожидаемое поведение**  
-Четкое и краткое описание того, какой результат вы ожидали.
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-**Скриншоты**  
-По возможности добавьте снимки экрана к объяснению вашей проблемы.
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-**Платформа (пожалуйста, заполните следующую информацию):**  
-OS:  
-Node:  
-NPM:  
-Yarn:  
-Browsers:  
-iOS:  
-Android:  
-Electron:  
+**Platform (please complete the following information):**
+OS:
+Node:
+NPM:
+Yarn:
+Browsers:
+iOS:
+Android:
+Electron:
 
-**Дополнительный контекст**  
-Добавьте сюда любой другой контекст проблемы.
+**Additional context**
+Add any other context about the problem here.
