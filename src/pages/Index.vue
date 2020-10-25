@@ -8,5 +8,5 @@
 </style>
 
 <script>
-export default { name: 'Index' }
+export default { name: 'PageIndex' }
 </script>

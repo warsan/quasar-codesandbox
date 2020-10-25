@@ -1,8 +1,12 @@
 <template>
   <div id="q-app">
-    <router-view></router-view>
+    <router-view/>
   </div>
 </template>
+
+<script>
+  export default { name: 'App' }
+</script>
 
 <style>
 #q-app {
@@ -17,8 +21,3 @@
   border-bottom: 1px solid #389d70;
 }
 </style>
-
-<script>
-  export default { name: 'App' }
-</script>
-
