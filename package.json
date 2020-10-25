@@ -9,7 +9,7 @@
   "scripts": {
     "start": "quasar dev",
     "post-update": "yarn upgrade --latest",
-    "test": "echo \"Тест не указан\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
     "@quasar/extras": "^1.1.3",
