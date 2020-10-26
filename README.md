@@ -1,6 +1,6 @@
-![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
-
 # Шаблон кода приложения Quasar
+
+![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
 > Шаблон для использования Quasar на Codesandbox.io.
 
 ![Экран сервера ввода Codesanbox](https://cdn.quasar.dev/codesandbox/codesandbox-entry.jpg)
@@ -29,7 +29,7 @@
 
 Если вы хотите работать с версиями PWA или SSR Quasar, пожалуйста, внесите следующие изменения в записи сценария `start` в пакете `package.json`
 
-#### PWA
+### PWA
 
 ```json
 
@@ -38,7 +38,7 @@
 
 ```
 
-#### SSR
+### SSR
 
 ```json
 
