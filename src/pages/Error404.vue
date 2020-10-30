@@ -1,12 +1,26 @@
+
 <template>
-  <div class="fixed-center text-center">
-    <p><img src="~assets/sad.svg" style="width: 30vw; max-width: 150px;"></p>
-    <p class="text-faded">Извините, но здесь пусто... <strong>(404)</strong></p>
-    <q-btn color="secondary" style="width:200px;"
-      @click="$router.push('/')" >Возврат</q-btn>
+  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
+    <div>
+      <div style="font-size: 30vh">404</div>
+
+      <div class="text-h2" style="opacity:.4">
+        Ой. Здесь пусто...
+      </div>
+
+      <q-btn
+        class="q-mt-xl"
+        color="white"
+        text-color="blue"
+        unelevated
+        to="/"
+        label="Иди домой"
+        no-caps
+      />
+    </div>
   </div>
 </template>
 
 <script>
-export default { name: 'Error404' }
+export default {name:'Error404'} 
 </script>

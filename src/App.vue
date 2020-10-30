@@ -5,7 +5,8 @@
 </template>
 
 <script>
-  export default { name: 'App' }
+import Index from "./pages/Index";
+  export default { name: 'App' };
 </script>
 
 <style>
