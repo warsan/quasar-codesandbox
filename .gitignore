@@ -11,7 +11,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Каталоги и файлы редактора
+# Editor directories and files
 .idea
 .vscode
 *.suo
